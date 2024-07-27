@@ -1,0 +1,51 @@
+body{
+    padding-top: 45px;
+    background-color: rgb(94, 94, 94);
+    color:white;
+    position: absolute;
+    left:250px;
+}
+
+button {
+    background-color: black;
+    color:white;
+    border:none;
+    font-size: 30px;
+    width:200px;
+    height:80px;
+    transition: background-color 0.5s;
+}
+
+button:hover{
+    background-color:grey;
+}
+
+.dashboard{
+    padding-top:100px;
+    width:200px;
+    height:1000px;
+    background-color: black;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+.content {
+    position:relative;
+    top:30px;
+}
+
+#post {
+    position:absolute;
+    left:340px;
+    font-size:35px;
+    width:150px;
+    height:70px;
+    border-radius:10px;
+    box-shadow: -3px 3px 3px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#blogPost {
+    box-shadow: -2px 2px 1px black;
+}

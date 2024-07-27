@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+#login {
+    font-size: 35px;
+    width:400px;
+    position: absolute;
+    top:440px;
+    left:1050px;
+}
+#signup {
+    font-size: 35px;
+    width:400px;
+    position: absolute;
+    top:580px;
+    left:1050px;
+}
+.title{
+    background-image:radial-gradient(white,black);
+    color:#ffe6c6;
+    width:1550px;
+    height:300px;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-shadow:-5px 5px 5px red,5px 5px 5px Blue,5px 5px 5px Black,-5px 5px 5px Black;
+    
+}
+.subtitle1 {
+    background-color: cyan;
+    height:90px;
+    width:950px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    position: absolute;
+    top:320px;
+    left:5px;
+    animation: slide-in 1.5s ease-out forwards;
+    box-shadow: -3px 3px 3px white;
+}
+.subtitle2 {
+    background-color: lime;
+    height:90px;
+    width:950px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    position: absolute;
+    top:450px;
+    left:5px;
+    animation: slide-in 1.6s ease-out forwards;
+    box-shadow: -3px 3px 3px white;
+}
+.subtitle3 {
+    background-color:pink;
+    height:90px;
+    width:950px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    position: absolute;
+    top:580px;
+    left:5px;
+    animation: slide-in 1.7s ease-out forwards;
+    box-shadow: -3px 3px 3px white;
+}
+.subtitle4 {
+    background-color: yellow;
+    height:90px;
+    width:950px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    position: absolute;
+    top:710px;
+    left:5px;
+    animation: slide-in 1.7s ease-out forwards;
+    box-shadow: -3px 3px 3px white;
+}
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
