@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %} Settings {% endblock %}
+{% block body %}
+<ls>
+    <ul><button type="submit" id="changeUsername" style="height:auto;width:400px;">Change Username</button></ul>
+    <ul><button type="submit" id="changePassword" style="height:auto;width:400px;">Change Password</button></ul>
+    <ul><button type="submit" id="changeEmail" style="height:auto;width:400px;">Change Email</button></ul>
+    <ul><button type="submit" id="deleteAccount" style="height:auto;width:400px;">Delete Account</button></ul>
+</ls>
+{%load static %}<script src="{% static 'js/settings.js' %}"></script>
+{% endblock %}

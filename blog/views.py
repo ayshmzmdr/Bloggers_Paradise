@@ -33,3 +33,16 @@ def signup(request):
         form=forms.signupForm()
     return render(request,"signup.html",{"form":form})
 
+def changeUsername(request):
+    if request.method=="POST":
+        User.email=request.POST.get("email")
+        if form.is_valid():
+            User.save()
+            return redirect("../home")
+    return render(request,"changeUsername.html",{})
+def changePassword(request):
+    return render(request,"changePassword.html",{})
+def changeEmail(request):
+    return render(request,"changeEmail.html",{})
+def deleteAccount(request):
+    return render(request,"deleteAccount.html",{})    

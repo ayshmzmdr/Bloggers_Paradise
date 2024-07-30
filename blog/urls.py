@@ -7,5 +7,8 @@ urlpatterns=[
     path("settings/",views.settings,name="settings"),
     path("",views.homepage,name="homepage"),
     path("signup/",views.signup,name="signup"),
-    #logout
+    path("changeUsername/",views.changeUsername,name="changeUsername"),
+    path("changePassword/",views.changePassword,name="changePassword"),
+    path("changeEmail/",views.changeEmail,name="changeEmail"),
+    path("deleteAccount/",views.deleteAccount,name="deleteAccount"),
 ]
